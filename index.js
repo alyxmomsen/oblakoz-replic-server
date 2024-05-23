@@ -1,23 +1,27 @@
 const express = require('express');
-
 require('dotenv').config();
-
 const PORT = process.env.PORT || 3003
-
 const app = express();
+const cors = require('cors');
+
+const fs = require('fs');
+
+const bodyParser = require('body-parser');
 
 const router = express.Router();
-
-router.get('/' , () => {
-
-});
-
+app.use(cors());
+app.use(bodyParser.json());
 app.use('/api' , router);
 
-app.get('/' , (request , response) => {
+router.get('/articles' , (request , response) => {
 
-    response.status(202).send('hello world');
+    const json = fs.readFileSync('./articles.json' , 'utf-8');
+
+    
+    return response.status(200).json(json);
 });
+
+
 
 app.listen(PORT , () => {
     console.log('server running on port ' + PORT);
