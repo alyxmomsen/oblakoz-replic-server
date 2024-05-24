@@ -1,0 +1,194 @@
+{
+    "pageProps": {
+        "metaData": {
+            "title": "Учительская: полезные и нескучные статьи для педагога",
+            "keywords": "Учительская. Статьи для педагога.",
+            "description": "Советы от методистов-профессионалов: как готовить учеников к экзаменам, как эффективно использовать образовательный сервис Облако знаний. Обзор нормативных изменений в образовании."
+        },
+        "articles": [
+            {
+                "id": 4462,
+                "title": "Олимпиады школьников по географии в 2023/2024 учебном году",
+                "views": 1122,
+                "href": "olimpiady-shkol-nikov-po-geografii-v-2023-2024-uchebnom-godu",
+                "date": "2023-10-09T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4462/full_1",
+                "rubricId": "useful_adv"
+            },
+            {
+                "id": 4451,
+                "title": "Как изменится ЕГЭ по биологии в 2024 году: обзор новой демоверсии",
+                "views": 1991,
+                "href": "kak-izmenitsya-ege-po-biologii-v-2024-godu-obzor-novoj-demoversii",
+                "date": "2023-10-04T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4451/full_1",
+                "rubricId": "edu_change"
+            },
+            {
+                "id": 4450,
+                "title": "О трудностях перевода в доинтернетные времена, или Обзор контента «Облака знаний» для изучения английского языка",
+                "views": 219,
+                "href": "o-trudnostyah-perevoda-v-dointernetnye-vremena-ili-obzor-kontenta-oblaka-znanij-dlya-izucheniya-anglijskogo-yazyka",
+                "date": "2023-09-29T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4450/full_1",
+                "rubricId": "innovation"
+            },
+            {
+                "id": 4449,
+                "title": "Искусственный интеллект в онлайн-образовании: возможности использования",
+                "views": 777,
+                "href": "iskusstvennyj-intellekt-v-onlajn-obrazovanii-vozmozhnosti-ispol-zovaniya",
+                "date": "2023-09-28T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4449/full_1",
+                "rubricId": "innovation"
+            },
+            {
+                "id": 4441,
+                "title": "Как классно провести классный час: идеи и готовые разработки",
+                "views": 2033,
+                "href": "kak-klassno-provesti-klassnyj-chas-idei-i-gotovye-razrabotki",
+                "date": "2023-09-14T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4441/full_1",
+                "rubricId": "innovation"
+            },
+            {
+                "id": 4398,
+                "title": "Федеральные рабочие программы по предметам: что изменится в содержании школьных учебников ",
+                "views": 1586,
+                "href": "federal-nye-rabochie-programmy-po-predmetam-chto-izmenitsya-v-soderzhanii-shkol-nyh-uchebnikov",
+                "date": "2023-09-06T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4398/full_1",
+                "rubricId": "edu_change"
+            },
+            {
+                "id": 4377,
+                "title": "Что год грядущий нам готовит: изменения в 2023/24 учебном году",
+                "views": 1264,
+                "href": "chto-god-gryadushij-nam-gotovit-izmeneniya-v-2023-24-uchebnom-godu",
+                "date": "2023-08-23T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4377/full_1",
+                "rubricId": "edu_change"
+            },
+            {
+                "id": 4344,
+                "title": "Полезные онлайн-ресурсы для учителей географии",
+                "views": 1942,
+                "href": "poleznye-onlajn-resursy-dlya-uchitelej-geografii",
+                "date": "2023-08-18T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4344/full_1",
+                "rubricId": "innovation"
+            },
+            {
+                "id": 4341,
+                "title": "ТРИЗ-педагогика, или Можно ли научить ребёнка нестандартно мыслить",
+                "views": 488,
+                "href": "triz-pedagogika-ili-mozhno-li-nauchit-rebenka-nestandartno-myslit",
+                "date": "2023-08-11T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4341/full_1",
+                "rubricId": "innovation"
+            },
+            {
+                "id": 4320,
+                "title": "Обучение программированию с нуля: 3 бесплатных приложения и их возможности",
+                "views": 475,
+                "href": "obuchenie-programmirovaniyu-s-nulya-3-besplatnyh-prilozheniya-i-ih-vozmozhnosti",
+                "date": "2023-07-31T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4320/full_1",
+                "rubricId": "innovation"
+            },
+            {
+                "id": 4317,
+                "title": "Шесть шляп мышления: как применять метод на уроках",
+                "views": 1974,
+                "href": "shest-shlyap-myshleniya-kak-primenyat-metod-na-urokah",
+                "date": "2023-07-27T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4317/full_1",
+                "rubricId": "innovation"
+            },
+            {
+                "id": 4305,
+                "title": "Технология обучения CLIL: как применять на уроках иностранного языка",
+                "views": 577,
+                "href": "tehnologiya-obucheniya-clil-kak-primenyat-na-urokah-inostrannogo-yazyka",
+                "date": "2023-07-21T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4305/full_1",
+                "rubricId": "innovation"
+            },
+            {
+                "id": 4298,
+                "title": "Как электронные образовательные ресурсы помогают развивать мышление и повышать мотивацию школьников",
+                "views": 608,
+                "href": "kak-elektronnye-obrazovatel-nye-resursy-pomogayut-razvivat-myshlenie-i-povyshat-motivaciyu-shkol-nikov",
+                "date": "2023-07-12T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4298/full_1",
+                "rubricId": "motivation"
+            },
+            {
+                "id": 4292,
+                "title": "Нестандартный подход в изучении сложных тем по биологии с сервисом «Облако знаний»",
+                "views": 414,
+                "href": "nestandartnyj-podhod-v-izuchenii-slozhnyh-tem-po-biologii-s-servisom-oblako-znanij",
+                "date": "2023-06-27T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4292/full_1",
+                "rubricId": "innovation"
+            },
+            {
+                "id": 4280,
+                "title": "Виртуальный практикум или живая лабораторная: что выбрать учителю",
+                "views": 478,
+                "href": "virtual-nyj-praktikum-ili-zhivaya-laboratornaya-chto-vybrat-uchitelyu",
+                "date": "2023-06-15T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4280/full_1",
+                "rubricId": "useful_adv"
+            },
+            {
+                "id": 4283,
+                "title": "Лето педагога: учебный год закончился, что дальше",
+                "views": 318,
+                "href": "leto-pedagoga-uchebnyj-god-zakonchilsya-chto-dal-she",
+                "date": "2023-06-15T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4283/full_1",
+                "rubricId": "psychology"
+            },
+            {
+                "id": 4278,
+                "title": "Как цифровые сервисы помогают школьникам осваивать методологию эксперимента",
+                "views": 714,
+                "href": "kak-cifrovye-servisy-pomogayut-shkol-nikam-osvaivat-metodologiyu-eksperimenta",
+                "date": "2022-12-22T00:00:00.000Z",
+                "coverSrc": "/api/images/pageBanner/4278/full_1",
+                "rubricId": "innovation"
+            }
+        ],
+        "totalPages": 2,
+        "activePage": 2,
+        "rubrics": [
+            {
+                "id": "innovation",
+                "title": "Инновации"
+            },
+            {
+                "id": "psychology",
+                "title": "Психология"
+            },
+            {
+                "id": "edu_change",
+                "title": "Изменения в образовании"
+            },
+            {
+                "id": "motivation",
+                "title": "Мотивация"
+            },
+            {
+                "id": "analytics",
+                "title": "Аналитика"
+            },
+            {
+                "id": "useful_adv",
+                "title": "Полезные советы"
+            }
+        ],
+        "activeRubrics": []
+    },
+    "__N_SSP": true
+}

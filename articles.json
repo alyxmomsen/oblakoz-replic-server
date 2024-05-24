@@ -1,186 +1,203 @@
 {
-    "pageProps": {
+  "pageProps": {
       "metaData": {
-        "title": "Учительская: полезные и нескучные статьи для педагога",
-        "keywords": "Учительская. Статьи для педагога.",
-        "description": "Советы от методистов-профессионалов: как готовить учеников к экзаменам, как эффективно использовать образовательный сервис Облако знаний. Обзор нормативных изменений в образовании."
+          "title": "Учительская: полезные и нескучные статьи для педагога",
+          "keywords": "Учительская. Статьи для педагога.",
+          "description": "Советы от методистов-профессионалов: как готовить учеников к экзаменам, как эффективно использовать образовательный сервис Облако знаний. Обзор нормативных изменений в образовании."
       },
       "articles": [
-        {
-          "id": 4658,
-          "title": "Какое отношение экология имеет к русскому языку?",
-          "views": 74,
-          "href": "kakoe-otnoshenie-ekologiya-imeet-k-russkomu-yazyku",
-          "date": "2024-05-17T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4658/full_1",
-          "rubricId": "useful_adv"
-        },
-        {
-          "id": 4637,
-          "title": "Читательская грамотность на уроках химии",
-          "views": 198,
-          "href": "chitatel-skaya-gramotnost-na-urokah-himii",
-          "date": "2024-04-16T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4637/full_1",
-          "rubricId": "useful_adv"
-        },
-        {
-          "id": 4635,
-          "title": "Знаниевые vs Компетентностные задания в цифровых работах",
-          "views": 206,
-          "href": "znanievye-vs-kompetentnostnye-zadaniya-v-cifrovyh-rabotah",
-          "date": "2024-04-02T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4635/full_1",
-          "rubricId": "analytics"
-        },
-        {
-          "id": 4629,
-          "title": "ЕГЭ-2024 по географии: стратегия подготовки",
-          "views": 326,
-          "href": "ege-2024-po-geografii-strategiya-podgotovki",
-          "date": "2024-03-19T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4629/full_1",
-          "rubricId": "useful_adv"
-        },
-        {
-          "id": 4600,
-          "title": "Гид по подготовке к ЕГЭ-24: разбор заданий по разным предметам",
-          "views": 505,
-          "href": "gid-po-podgotovke-k-ege-24-razbor-zadanij-po-raznym-predmetam",
-          "date": "2024-02-28T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4600/full_1",
-          "rubricId": "edu_change"
-        },
-        {
-          "id": 4597,
-          "title": "Изучение теории клонально-селективного иммунитета: работы  П. Эрлиха, Ф.М. Бёрнета, С. Тонегавы",
-          "views": 849,
-          "href": "izuchenie-teorii-klonal-no-selektivnogo-immuniteta-raboty-p-erliha-f-m-berneta-s-tonegavy",
-          "date": "2024-02-20T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4597/full_1",
-          "rubricId": "useful_adv"
-        },
-        {
-          "id": 4595,
-          "title": "Изменения в ОГЭ-2024 по русскому языку ",
-          "views": 803,
-          "href": "izmeneniya-v-oge-2024-po-russkomu-yazyku",
-          "date": "2024-02-16T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4595/full_1",
-          "rubricId": "useful_adv"
-        },
-        {
-          "id": 4594,
-          "title": "Дефицит заданий по новым рабочим программам? Эти цифровые работы могут помочь",
-          "views": 224,
-          "href": "deficit-zadanij-po-novym-rabochim-programmam-eti-cifrovye-raboty-mogut-pomoch",
-          "date": "2024-02-12T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4594/full_1",
-          "rubricId": "edu_change"
-        },
-        {
-          "id": 4593,
-          "title": "Зачем нужны задания по химии на поиск информации",
-          "views": 213,
-          "href": "zachem-nuzhny-zadaniya-po-himii-na-poisk-informacii",
-          "date": "2024-02-07T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4593/full_1",
-          "rubricId": "useful_adv"
-        },
-        {
-          "id": 4579,
-          "title": "Использование алгоритмов на разных предметах школьной программы",
-          "views": 337,
-          "href": "ispol-zovanie-algoritmov-na-raznyh-predmetah-shkol-noj-programmy",
-          "date": "2024-01-22T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4579/full_1",
-          "rubricId": "useful_adv"
-        },
-        {
-          "id": 4577,
-          "title": "Межпредметные связи на уроках русского языка",
-          "views": 516,
-          "href": "mezhpredmetnye-svyazi-na-urokah-russkogo-yazyka",
-          "date": "2024-01-16T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4577/full_1",
-          "rubricId": "useful_adv"
-        },
-        {
-          "id": 4557,
-          "title": "Решение задач на закон Харди-Вайнберга",
-          "views": 3094,
-          "href": "reshenie-zadach-na-zakon-hardi-vajnberga",
-          "date": "2023-12-25T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4557/full_1",
-          "rubricId": "useful_adv"
-        },
-        {
-          "id": 4548,
-          "title": "Опорные конспекты «Облака знаний» в углублённом изучении географии",
-          "views": 404,
-          "href": "opornye-konspekty-oblaka-znanij-v-uglublennom-izuchenii-geografii",
-          "date": "2023-12-19T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4548/full_1",
-          "rubricId": "useful_adv"
-        },
-        {
-          "id": 4538,
-          "title": "Зачем нужна читательская грамотность в физике",
-          "views": 379,
-          "href": "zachem-nuzhna-chitatel-skaya-gramotnost-v-fizike",
-          "date": "2023-12-14T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4538/full_1",
-          "rubricId": "useful_adv"
-        },
-        {
-          "id": 4545,
-          "title": "Обучаем нейросеть: зачем в технологический проект привлекается методист по школьному предмету?",
-          "views": 319,
-          "href": "obuchaem-nejroset-zachem-v-tehnologicheskij-proekt-privlekaetsya-metodist-po-shkol-nomu-predmetu",
-          "date": "2023-11-15T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4545/full_1",
-          "rubricId": "innovation"
-        },
-        {
-          "id": 4488,
-          "title": "Подборка онлайн-экскурсий по Государственному геологическому музею им. В. И. Вернадского ",
-          "views": 347,
-          "href": "podborka-onlajn-ekskursij-po-gosudarstvennomu-geologicheskomu-muzeyu-im-v-i-vernadskogo",
-          "date": "2023-11-14T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4488/full_1",
-          "rubricId": "innovation"
-        },
-        {
-          "id": 4474,
-          "title": "Формирование математической и финансовой грамотности на уроках географии",
-          "views": 532,
-          "href": "formirovanie-matematicheskoj-i-finansovoj-gramotnosti-na-urokah-geografii",
-          "date": "2023-10-23T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4474/full_1",
-          "rubricId": "innovation"
-        },
-        {
-          "id": 4464,
-          "title": "Воспитательный потенциал уроков биологии",
-          "views": 551,
-          "href": "vospitatel-nyj-potencial-urokov-biologii",
-          "date": "2023-10-14T00:00:00.000Z",
-          "coverSrc": "/api/images/pageBanner/4464/full_1",
-          "rubricId": "analytics"
-        }
+          {
+              "id": 4658,
+              "title": "Какое отношение экология имеет к русскому языку?",
+              "views": 77,
+              "href": "kakoe-otnoshenie-ekologiya-imeet-k-russkomu-yazyku",
+              "date": "2024-05-17T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4658/full_1",
+              "rubricId": "useful_adv"
+          },
+          {
+              "id": 4637,
+              "title": "Читательская грамотность на уроках химии",
+              "views": 199,
+              "href": "chitatel-skaya-gramotnost-na-urokah-himii",
+              "date": "2024-04-16T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4637/full_1",
+              "rubricId": "useful_adv"
+          },
+          {
+              "id": 4635,
+              "title": "Знаниевые vs Компетентностные задания в цифровых работах",
+              "views": 208,
+              "href": "znanievye-vs-kompetentnostnye-zadaniya-v-cifrovyh-rabotah",
+              "date": "2024-04-02T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4635/full_1",
+              "rubricId": "analytics"
+          },
+          {
+              "id": 4629,
+              "title": "ЕГЭ-2024 по географии: стратегия подготовки",
+              "views": 328,
+              "href": "ege-2024-po-geografii-strategiya-podgotovki",
+              "date": "2024-03-19T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4629/full_1",
+              "rubricId": "useful_adv"
+          },
+          {
+              "id": 4600,
+              "title": "Гид по подготовке к ЕГЭ-24: разбор заданий по разным предметам",
+              "views": 505,
+              "href": "gid-po-podgotovke-k-ege-24-razbor-zadanij-po-raznym-predmetam",
+              "date": "2024-02-28T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4600/full_1",
+              "rubricId": "edu_change"
+          },
+          {
+              "id": 4597,
+              "title": "Изучение теории клонально-селективного иммунитета: работы  П. Эрлиха, Ф.М. Бёрнета, С. Тонегавы",
+              "views": 859,
+              "href": "izuchenie-teorii-klonal-no-selektivnogo-immuniteta-raboty-p-erliha-f-m-berneta-s-tonegavy",
+              "date": "2024-02-20T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4597/full_1",
+              "rubricId": "useful_adv"
+          },
+          {
+              "id": 4595,
+              "title": "Изменения в ОГЭ-2024 по русскому языку ",
+              "views": 807,
+              "href": "izmeneniya-v-oge-2024-po-russkomu-yazyku",
+              "date": "2024-02-16T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4595/full_1",
+              "rubricId": "useful_adv"
+          },
+          {
+              "id": 4594,
+              "title": "Дефицит заданий по новым рабочим программам? Эти цифровые работы могут помочь",
+              "views": 224,
+              "href": "deficit-zadanij-po-novym-rabochim-programmam-eti-cifrovye-raboty-mogut-pomoch",
+              "date": "2024-02-12T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4594/full_1",
+              "rubricId": "edu_change"
+          },
+          {
+              "id": 4593,
+              "title": "Зачем нужны задания по химии на поиск информации",
+              "views": 215,
+              "href": "zachem-nuzhny-zadaniya-po-himii-na-poisk-informacii",
+              "date": "2024-02-07T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4593/full_1",
+              "rubricId": "useful_adv"
+          },
+          {
+              "id": 4579,
+              "title": "Использование алгоритмов на разных предметах школьной программы",
+              "views": 341,
+              "href": "ispol-zovanie-algoritmov-na-raznyh-predmetah-shkol-noj-programmy",
+              "date": "2024-01-22T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4579/full_1",
+              "rubricId": "useful_adv"
+          },
+          {
+              "id": 4577,
+              "title": "Межпредметные связи на уроках русского языка",
+              "views": 518,
+              "href": "mezhpredmetnye-svyazi-na-urokah-russkogo-yazyka",
+              "date": "2024-01-16T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4577/full_1",
+              "rubricId": "useful_adv"
+          },
+          {
+              "id": 4557,
+              "title": "Решение задач на закон Харди-Вайнберга",
+              "views": 3106,
+              "href": "reshenie-zadach-na-zakon-hardi-vajnberga",
+              "date": "2023-12-25T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4557/full_1",
+              "rubricId": "useful_adv"
+          },
+          {
+              "id": 4548,
+              "title": "Опорные конспекты «Облака знаний» в углублённом изучении географии",
+              "views": 404,
+              "href": "opornye-konspekty-oblaka-znanij-v-uglublennom-izuchenii-geografii",
+              "date": "2023-12-19T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4548/full_1",
+              "rubricId": "useful_adv"
+          },
+          {
+              "id": 4538,
+              "title": "Зачем нужна читательская грамотность в физике",
+              "views": 379,
+              "href": "zachem-nuzhna-chitatel-skaya-gramotnost-v-fizike",
+              "date": "2023-12-14T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4538/full_1",
+              "rubricId": "useful_adv"
+          },
+          {
+              "id": 4545,
+              "title": "Обучаем нейросеть: зачем в технологический проект привлекается методист по школьному предмету?",
+              "views": 320,
+              "href": "obuchaem-nejroset-zachem-v-tehnologicheskij-proekt-privlekaetsya-metodist-po-shkol-nomu-predmetu",
+              "date": "2023-11-15T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4545/full_1",
+              "rubricId": "innovation"
+          },
+          {
+              "id": 4488,
+              "title": "Подборка онлайн-экскурсий по Государственному геологическому музею им. В. И. Вернадского ",
+              "views": 349,
+              "href": "podborka-onlajn-ekskursij-po-gosudarstvennomu-geologicheskomu-muzeyu-im-v-i-vernadskogo",
+              "date": "2023-11-14T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4488/full_1",
+              "rubricId": "innovation"
+          },
+          {
+              "id": 4474,
+              "title": "Формирование математической и финансовой грамотности на уроках географии",
+              "views": 533,
+              "href": "formirovanie-matematicheskoj-i-finansovoj-gramotnosti-na-urokah-geografii",
+              "date": "2023-10-23T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4474/full_1",
+              "rubricId": "innovation"
+          },
+          {
+              "id": 4464,
+              "title": "Воспитательный потенциал уроков биологии",
+              "views": 551,
+              "href": "vospitatel-nyj-potencial-urokov-biologii",
+              "date": "2023-10-14T00:00:00.000Z",
+              "coverSrc": "/api/images/pageBanner/4464/full_1",
+              "rubricId": "analytics"
+          }
       ],
       "totalPages": 2,
       "activePage": 1,
       "rubrics": [
-        { "id": "innovation", "title": "Инновации" },
-        { "id": "psychology", "title": "Психология" },
-        { "id": "edu_change", "title": "Изменения в образовании" },
-        { "id": "motivation", "title": "Мотивация" },
-        { "id": "analytics", "title": "Аналитика" },
-        { "id": "useful_adv", "title": "Полезные советы" }
+          {
+              "id": "innovation",
+              "title": "Инновации"
+          },
+          {
+              "id": "psychology",
+              "title": "Психология"
+          },
+          {
+              "id": "edu_change",
+              "title": "Изменения в образовании"
+          },
+          {
+              "id": "motivation",
+              "title": "Мотивация"
+          },
+          {
+              "id": "analytics",
+              "title": "Аналитика"
+          },
+          {
+              "id": "useful_adv",
+              "title": "Полезные советы"
+          }
       ],
       "activeRubrics": []
-    },
-    "__N_SSP": true
-  }
-  
+  },
+  "__N_SSP": true
+}
