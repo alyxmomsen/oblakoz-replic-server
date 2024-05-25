@@ -6,6 +6,10 @@ const cors = require('cors');
 
 const fs = require('fs');
 
+const path = require('path');
+
+
+
 const bodyParser = require('body-parser');
 
 const router = express.Router();
@@ -95,8 +99,11 @@ router.get('/articles' , (request , response) => {
 
     // console.log({params}) ;
 
-    let json_1 = fs.readFileSync('./articles_1.json' , 'utf-8');
-    let json_2 = fs.readFileSync('./articles_2.json' , 'utf-8');
+    const path1 = path.resolve('./articles_1.json') ;
+    const path2 = path.resolve('./articles_2.json') ;
+
+    let json_1 = fs.readFileSync(/* './articles_1.json' */path1 , 'utf-8');
+    let json_2 = fs.readFileSync(/* './articles_2.json' */path2 , 'utf-8');
     
     const obj = JSON.parse(json_1);
     const obj2 = JSON.parse(json_2);
