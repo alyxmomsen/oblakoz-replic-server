@@ -1,14 +1,15 @@
-const express = require('express');
+
+// Warning! this code is very dirty because the developer was in a hurry.
+
+const express = require('express') ;
 require('dotenv').config();
-const PORT = process.env.PORT || 3002
-const app = express();
+const PORT = process.env.PORT || 3002 ;
+const app = express() ;
 const cors = require('cors');
 
 const fs = require('fs');
 
 const path = require('path');
-
-
 
 const bodyParser = require('body-parser');
 
@@ -32,8 +33,7 @@ router.get('/articles' , (request , response) => {
         params_all = url.split('?')[1] ;
 
         if(params_all.match(/&/i)) {
-            console.log('&&&&&&&&');
-            // params_array = params_all.split('&') ;
+
         }
         else {
             params_array = [params_all] ;
@@ -55,28 +55,21 @@ router.get('/articles' , (request , response) => {
 
                 if(typeof filter  === 'string') {
 
-
                     filter = filter.split('=')[1];
 
                     if(typeof filter === 'string') {
 
-
                         if(filter.match(/__/)) {
 
                             const params = filter.split('__');
-                            // console.log({params});
 
                             params_for_articles = params ;
                         }
                         else {
-                            // console.log({filter});
 
                             params_for_articles = [filter] ;
 
                         }
-
-
-                        // console.log('params_for_articles' , typeof params_for_articles , params_for_articles);
                     }
                     else {
                         params_for_articles = [] ;
@@ -97,13 +90,11 @@ router.get('/articles' , (request , response) => {
         params_for_articles = [] ;
     }
 
-    // console.log({params}) ;
-
     const path1 = path.resolve('./articles_1.json') ;
     const path2 = path.resolve('./articles_2.json') ;
 
-    let json_1 = fs.readFileSync(/* './articles_1.json' */path1 , 'utf-8');
-    let json_2 = fs.readFileSync(/* './articles_2.json' */path2 , 'utf-8');
+    let json_1 = fs.readFileSync(path1 , 'utf-8');
+    let json_2 = fs.readFileSync(path2 , 'utf-8');
     
     const obj = JSON.parse(json_1);
     const obj2 = JSON.parse(json_2);
@@ -113,25 +104,14 @@ router.get('/articles' , (request , response) => {
     let articles = obj.pageProps.articles ;
     let articles_2 = obj2.pageProps.articles ;
 
-
-    // console.log(typeof articles , typeof articles_2);
-
     if(params_for_articles.length) {
-
 
         articles = articles.filter(article => params_for_articles.find(elem => elem === article.rubricId)) ;
         articles_2 = articles_2.filter(article => params_for_articles.find(elem => elem === article.rubricId)) ;
         
-    
-        // params_for_articles.forEach(the_param => articles);
-        
-        console.log('articles' , articles.length , articles_2.length);
-    
-        // articles = articles.filter(article => article.rubricId);
     }
     
     obj.pageProps.articles = [...articles , ...articles_2] ;
-    // console.log('json' , typeof json , typeof obj , articles) ;
 
     const s = JSON.stringify(obj)
 
